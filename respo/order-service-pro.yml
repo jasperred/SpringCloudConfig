@@ -7,7 +7,7 @@ spring:
 #    port: 5672
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-uf6i3853g7l2kux4e.mysql.rds.aliyuncs.com:3306/sh_order?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    url: jdbc:mysql://rm-uf6i3853g7l2kux4e.mysql.rds.aliyuncs.com:3306/sh_order_dev?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
     username: dev
     password: D2ev!$456
     jpa:
