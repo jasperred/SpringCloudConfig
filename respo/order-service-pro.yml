@@ -1,0 +1,41 @@
+spring:
+#  zipkin:
+#    base-url: http://localhost:9411
+
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-uf6i3853g7l2kux4e.mysql.rds.aliyuncs.com:3306/sh_order?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    username: dev
+    password: D2ev!$456
+    jpa:
+      hibernate:
+        ddl-auto: none
+      show-sql: true
+server:
+  port: 8930
+wechat:
+  mini:
+    appId: wx38c5134db2f9d99c
+    appSercret: 020f87014a76cc45af60cd6c6cc2c312
+    mchId: 1505208531
+    key: cbe2591833a8743470bf9697d586d72f
+  pay:
+    notifyUrl: http://localhost:9091
+
+promotion:
+  order:
+    #推荐奖励
+    bonus: 0.15
+    #复购折扣
+    reBuy: 0.6
+  #
+  #  rabbitmq:
+  #    host: localhost
+  #    port: 5672
+  #    username: guest
+  #    password: guest
+  #    publisher-confirms: true
+  #    virtual-host: /
