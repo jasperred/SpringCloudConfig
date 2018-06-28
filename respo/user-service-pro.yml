@@ -35,7 +35,7 @@ promotion:
     reBuy: 0.6
 file:
   path: /mnt/static
-  url: /static/
+  url: /static
   #
   #  rabbitmq:
   #    host: localhost
