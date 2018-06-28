@@ -34,7 +34,7 @@ promotion:
     #复购折扣
     reBuy: 0.6
 file:
-  path: c:/temp
+  path: /mnt/static
   url: /static/
   #
   #  rabbitmq:
