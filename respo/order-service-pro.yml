@@ -23,7 +23,7 @@ wechat:
     mchId: 1505208531
     key: cbe2591833a8743470bf9697d586d72f
   pay:
-    notifyUrl: http://localhost:9091
+    notifyUrl: http://wx.ue.xyz/orderapi/pay/notify
 
 promotion:
   order:
