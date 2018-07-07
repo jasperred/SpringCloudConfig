@@ -23,3 +23,5 @@ server:
 wechat:
   mini:
     defaultUserPassword: Fs29%s/b
+web:
+  url: http://wx.ue.xyz/testweb
